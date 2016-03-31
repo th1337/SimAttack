@@ -19,6 +19,7 @@ import java.util.Set;
  */
 public class Query implements Comparable<Query> {
 
+    private List<Annotation> annotations;
 	private Set<String> keywords;
 	private final int dataset;
 	private final int queryId;
@@ -93,7 +94,7 @@ public class Query implements Comparable<Query> {
      */
     public Set<String> getKeywords() {
         if (keywords == null) {
-            keywords = CoreNLPTokenizer.getInstance().process(request);
+            keywords = CoreNLPTokenizer.getInstance().oldProcess(request);
         }
         return keywords;
     }

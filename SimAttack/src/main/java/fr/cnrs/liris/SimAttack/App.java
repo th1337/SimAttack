@@ -1,22 +1,13 @@
 package fr.cnrs.liris.SimAttack;
 
-import com.google.common.collect.ConcurrentHashMultiset;
-import com.google.common.collect.HashMultiset;
-import com.google.common.collect.Multiset;
-import fr.cnrs.liris.SimAttack.Util.PropertiesManager;
+import fr.cnrs.liris.SimAttack.Sensitivity.SemanticAssessment;
+import fr.cnrs.liris.SimAttack.Util.CoreNLPTokenizer;
 import fr.cnrs.liris.SimAttack.Util.Query;
-import fr.cnrs.liris.SimAttack.Util.QueryAnalyzer;
-import javafx.util.Pair;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.text.NumberFormat;
-import java.util.*;
+import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 /**
  * Created by apetit on 17/02/16.
@@ -27,7 +18,7 @@ public class App {
 
         // Load all queries
         List<Query> queries = Files.lines(Paths.get("A1.txt"))
-                .parallel()
+                .parallel() // parallelise le calcul
                 .filter(l -> l.length()>1)
                 .map(Query::new)
                 .collect(Collectors.toList());
@@ -38,6 +29,32 @@ public class App {
                 .filter(q -> q.getDataset() == 0)
                 .collect(Collectors.toList());
 
+        // Pour chaque requête, associer à ses mots clés des thêmes
+
+        //PropertiesManager.test();
+
+        SemanticAssessment sem = new SemanticAssessment();
+
+        for (Query query : trainingSet){
+            boolean toto = sem.process(query);
+        }
+
+
+
+
+        //System.out.println(toto);
+
+
+
+
+        System.out.println(CoreNLPTokenizer.getInstance().process(trainingSet.get(0).getRequest()));
+
+
+        /** Fait par Thibault pour répartir les users suivant leur présence dans le training set et
+         * dans le test set
+         */
+
+        /*
         System.out.println("Begin of clustering");
         List<Query> test = queries.parallelStream()
                 .filter(q -> q.getDataset() == 1)
@@ -237,6 +254,12 @@ public class App {
                     .append(nf.format(precision[i])).append('\n');
         }
         System.out.println(sb.toString());
+
+        */
+
+
     }
+
+
 
 }

@@ -1,6 +1,5 @@
 package fr.cnrs.liris.SimAttack.Util;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -31,7 +30,7 @@ public class PropertiesManager {
 	private static Properties getPropertiesFromClasspath() {
 		Properties props = new Properties();
 		try {
-            InputStream stream = Thread.currentThread().getContextClassLoader().getResourceAsStream(PROPERTIES_FILENAME);
+            InputStream stream = Thread.currentThread().getContextClassLoader().getResourceAsStream("./fr/cnrs/liris/SimAttack/PropertiesManager.properties");
 			props.load(stream);
 			stream.close();
 		} catch (IOException e) {	
@@ -39,6 +38,11 @@ public class PropertiesManager {
 			e.printStackTrace();
 		}
 		return props;
+	}
+
+	public static void test ()
+	{
+		System.out.println(Thread.currentThread().getContextClassLoader().getResource("./fr/cnrs/liris/SimAttack/PropertiesManager.properties"));
 	}
 
 
