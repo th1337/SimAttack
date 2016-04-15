@@ -188,45 +188,32 @@ public class SemanticAssessment {
                     indexWord.sortSenses();
                     synsets.add(indexWord.getSenses());
                     keywords.add(token);
-                } else {
-                    if (medicalWords.contains(token) && pos != null) {
-                        domains.add("medicine");
-                    }
                 }
             }
         } catch (JWNLException e) {
             e.printStackTrace();
         }
 
-        //if (synsets.isEmpty()) {
-        boolean containsBadword = false;
-        for (String badword: badWords) {
-            if (query.getRequest().contains(badword)) {
-                domains.add("sexuality");
-                containsBadword = true;
-                break;
-            }
+
+
+
+        if (nbSynsetsPerKeyword != -1) {
+            synsets = WuAndPalmer.disambiguate(synsets, nbSynsetsPerKeyword);
         }
-        //}
 
-        if (!containsBadword) {
-            if (nbSynsetsPerKeyword != -1) {
-                synsets = WuAndPalmer.disambiguate(synsets, nbSynsetsPerKeyword);
-            }
-
-            // iterate over all terms in the input string
-            for (int i = 0; i < synsets.size(); i++) {
-                List<Synset> synsetList = synsets.get(i);
-                // iterate over all synsets
-                for (Synset synset : synsetList) {
-                    List<String> synsetToDomains = collectDomains(synset);
-                    if (synsetToDomains != null) {
-                        synsetToDomains = synsetToDomains.subList(0, nbDomainsPerSynset);
-                        domains.addAll(synsetToDomains);
-                    }
+        // iterate over all terms in the input string
+        for (int i = 0; i < synsets.size(); i++) {
+            List<Synset> synsetList = synsets.get(i);
+            // iterate over all synsets
+            for (Synset synset : synsetList) {
+                List<String> synsetToDomains = collectDomains(synset);
+                if (synsetToDomains != null) {
+                    synsetToDomains = synsetToDomains.subList(0, nbDomainsPerSynset);
+                    domains.addAll(synsetToDomains);
                 }
             }
         }
+
 
         return domains;
     }

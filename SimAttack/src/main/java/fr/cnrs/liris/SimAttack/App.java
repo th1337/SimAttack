@@ -1,7 +1,9 @@
 package fr.cnrs.liris.SimAttack;
 
+import com.google.common.collect.TreeMultimap;
 import fr.cnrs.liris.SimAttack.Sensitivity.SemanticAssessment;
 import fr.cnrs.liris.SimAttack.Util.Profile;
+import fr.cnrs.liris.SimAttack.Util.PropertiesManager;
 import fr.cnrs.liris.SimAttack.Util.Query;
 
 import java.io.BufferedWriter;
@@ -18,6 +20,16 @@ import java.util.stream.Collectors;
 public class App {
 
     public static void main(String[] args) throws Exception {
+
+        String toto = "play,electronics,artisanship,radiology,roman_catholic,cycling,psychiatry,theatre,number,diving,music,folklore,grammar,rowing,social_science,geography,acoustics,drawing,philology,railway,cinema,animals,hunting,publishing,dance,astronautics,anthropology,biology,numismatics,physiology,body_care,economy,philosophy,mythology,quality,graphic_arts,diplomacy,computer_science,volleyball,baseball,plastic_arts,photography,card,archery,sub,linguistics,racing,anatomy,enterprise,telegraphy,tourism,industry,astrology,psychoanalysis,swimming,literature,golf,psychological_features,humanities,paleontology,plants,physics,ethnology,paranormal,architecture,chemistry,hockey,art,book_keeping,skiing,health,badminton,medicine,electricity,metrology,mechanics,veterinary,tennis,food,nautical,religion,table_tennis,cricket,electrotechnology,oceanography,applied_science,geometry,atomic_physic,animal_husbandry,town_planning,time_period,statistics,fashion,surgery,insurance,tv,sexuality,administration,pedagogy,aviation,bowling,telecommunication,radio,basketball,post,furniture,school,military,law,chess,meteorology,rugby,topography,gastronomy,tax,engineering,history,astronomy,person,telephony,entomology,buildings,pharmacy,boxing,exchange,politics,color,dentistry,mathematics,university,sociology,pure_science,vehicles,heraldry,optics,geology,commerce,mountaineering,banking,agriculture,factotum,genetics,hydraulics,psychology,philately,gas,archaeology,soccer,social,fishing,skating,free_time,sculpture,betting,transport,football,theology,occultism,home,environment,jewellery,money,painting,biochemistry,earth,wrestling,athletics,sport,finance,fencing";
+        String totobis = "(";
+        int bl = 0;
+        for (String popo : toto.split(",")){
+            totobis += "\"" + popo + "\" " + bl + ",";
+            bl++;
+        }
+        System.out.println(totobis);
+
 
         // Load all queries
         List<Query> queries = Files.lines(Paths.get("A1.txt"))
@@ -77,8 +89,8 @@ public class App {
         Map<Integer,Integer> nbDomaines = new TreeMap();
 
 
-
-        for (Profile profil : profiles) {
+        /** Donne le nombre d'utilisateur en fonction du nombre de domaines utilisés **/
+  /*      for (Profile profil : profiles) {
             int size = profil.getDomains().size();
             if(nbDomaines.get(size) != null){
                 int i = nbDomaines.get(size);
@@ -88,11 +100,35 @@ public class App {
             }
         }
 
-
         for(int size : nbDomaines.keySet()) {
             System.out.println(size + " " + nbDomaines.get(size) + "\n");
             bw.write(size + " " + nbDomaines.get(size) + "\n");
+        }*/
+
+
+        Map<String,Integer> nbUtilisateurs = new TreeMap();
+
+        /** Donne le nombre d'utilisateur utilisant chaque domaine **/
+        for (String domaine : PropertiesManager.getProperty("DOMAINS").split(",")){
+            nbUtilisateurs.put(domaine,0);
+            for (Profile profil : profiles){
+                if(profil.getDomains().get(domaine)!=null){
+                    int i = nbUtilisateurs.get(domaine);
+                    nbUtilisateurs.put(domaine,i+1);
+                }
+            }
         }
+
+        TreeMultimap<Integer,String> yolo = TreeMultimap.create();
+        for (Map.Entry<String, Integer> entree : nbUtilisateurs.entrySet()) {
+            yolo.put(entree.getValue(), entree.getKey());
+        }
+        for (Map.Entry<Integer, String> entree : yolo.entries()) {
+            System.out.println(entree.getValue()+" "+entree.getKey());
+        }
+
+
+
 
 
         //System.out.println(toto);

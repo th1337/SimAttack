@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="3000" height="600" viewBox="0 0 3000 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<title>Gnuplot</title>
+<desc>Produced by GNUPLOT 4.6 patchlevel 3 </desc>
+
+<g id="gnuplot_canvas">
+
+<rect x="0" y="0" width="3000" height="600" fill="none"/>
+<defs>
+
+	<circle id="gpDot" r="0.5" stroke-width="0.5"/>
+	<path id="gpPt0" stroke-width="0.267" stroke="currentColor" d="M-1,0 h2 M0,-1 v2"/>
+	<path id="gpPt1" stroke-width="0.267" stroke="currentColor" d="M-1,-1 L1,1 M1,-1 L-1,1"/>
+	<path id="gpPt2" stroke-width="0.267" stroke="currentColor" d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1"/>
+	<rect id="gpPt3" stroke-width="0.267" stroke="currentColor" x="-1" y="-1" width="2" height="2"/>
+	<rect id="gpPt4" stroke-width="0.267" stroke="currentColor" fill="currentColor" x="-1" y="-1" width="2" height="2"/>
+	<circle id="gpPt5" stroke-width="0.267" stroke="currentColor" cx="0" cy="0" r="1"/>
+	<use xlink:href="#gpPt5" id="gpPt6" fill="currentColor" stroke="none"/>
+	<path id="gpPt7" stroke-width="0.267" stroke="currentColor" d="M0,-1.33 L-1.33,0.67 L1.33,0.67 z"/>
+	<use xlink:href="#gpPt7" id="gpPt8" fill="currentColor" stroke="none"/>
+	<use xlink:href="#gpPt7" id="gpPt9" stroke="currentColor" transform="rotate(180)"/>
+	<use xlink:href="#gpPt9" id="gpPt10" fill="currentColor" stroke="none"/>
+	<use xlink:href="#gpPt3" id="gpPt11" stroke="currentColor" transform="rotate(45)"/>
+	<use xlink:href="#gpPt11" id="gpPt12" fill="currentColor" stroke="none"/>
+</defs>
+<g style="fill:none; color:white; stroke:black; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+</g>
+<g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path stroke="black" d="M53.5,427.0 L61.0,427.0 M2978.9,427.0 L2971.4,427.0  h0.01"/>	<g transform="translate(46.5,430.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>91</tspan></text>
+	</g>
+	<path stroke="black" d="M53.5,381.1 L61.0,381.1 M2978.9,381.1 L2971.4,381.1  h0.01"/>	<g transform="translate(46.5,384.8)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>92</tspan></text>
+	</g>
+	<path stroke="black" d="M53.5,335.2 L61.0,335.2 M2978.9,335.2 L2971.4,335.2  h0.01"/>	<g transform="translate(46.5,338.9)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>93</tspan></text>
+	</g>
+	<path stroke="black" d="M53.5,289.4 L61.0,289.4 M2978.9,289.4 L2971.4,289.4  h0.01"/>	<g transform="translate(46.5,293.1)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>94</tspan></text>
+	</g>
+	<path stroke="black" d="M53.5,243.5 L61.0,243.5 M2978.9,243.5 L2971.4,243.5  h0.01"/>	<g transform="translate(46.5,247.2)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>95</tspan></text>
+	</g>
+	<path stroke="black" d="M53.5,197.6 L61.0,197.6 M2978.9,197.6 L2971.4,197.6  h0.01"/>	<g transform="translate(46.5,201.3)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>96</tspan></text>
+	</g>
+	<path stroke="black" d="M53.5,151.7 L61.0,151.7 M2978.9,151.7 L2971.4,151.7  h0.01"/>	<g transform="translate(46.5,155.4)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>97</tspan></text>
+	</g>
+	<path stroke="black" d="M53.5,105.9 L61.0,105.9 M2978.9,105.9 L2971.4,105.9  h0.01"/>	<g transform="translate(46.5,109.6)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>98</tspan></text>
+	</g>
+	<path stroke="black" d="M53.5,60.0 L61.0,60.0 M2978.9,60.0 L2971.4,60.0  h0.01"/>	<g transform="translate(46.5,63.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>99</tspan></text>
+	</g>
+	<path stroke="black" d="M53.5,14.1 L61.0,14.1 M2978.9,14.1 L2971.4,14.1  h0.01"/>	<g transform="translate(46.5,17.8)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>100</tspan></text>
+	</g>
+	<path stroke="black" d="M62.1,427.0 L62.1,419.5 M62.1,14.1 L62.1,21.6  h0.01"/>	<g transform="translate(65.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>rugby</tspan></text>
+	</g>
+	<path stroke="black" d="M79.3,427.0 L79.3,419.5 M79.3,14.1 L79.3,21.6  h0.01"/>	<g transform="translate(83.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>veterinary</tspan></text>
+	</g>
+	<path stroke="black" d="M96.5,427.0 L96.5,419.5 M96.5,14.1 L96.5,21.6  h0.01"/>	<g transform="translate(100.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>athletics</tspan></text>
+	</g>
+	<path stroke="black" d="M113.7,427.0 L113.7,419.5 M113.7,14.1 L113.7,21.6  h0.01"/>	<g transform="translate(117.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>basketball</tspan></text>
+	</g>
+	<path stroke="black" d="M130.9,427.0 L130.9,419.5 M130.9,14.1 L130.9,21.6  h0.01"/>	<g transform="translate(134.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>body</tspan><tspan font-size="8.0pt" dy="3.00pt">c</tspan><tspan font-size="10.0pt" dy="-3.00pt">are</tspan></text>
+	</g>
+	<path stroke="black" d="M148.1,427.0 L148.1,419.5 M148.1,14.1 L148.1,21.6  h0.01"/>	<g transform="translate(151.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>chess</tspan></text>
+	</g>
+	<path stroke="black" d="M165.4,427.0 L165.4,419.5 M165.4,14.1 L165.4,21.6  h0.01"/>	<g transform="translate(169.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>grammar</tspan></text>
+	</g>
+	<path stroke="black" d="M182.6,427.0 L182.6,419.5 M182.6,14.1 L182.6,21.6  h0.01"/>	<g transform="translate(186.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>health</tspan></text>
+	</g>
+	<path stroke="black" d="M199.8,427.0 L199.8,419.5 M199.8,14.1 L199.8,21.6  h0.01"/>	<g transform="translate(203.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>soccer</tspan></text>
+	</g>
+	<path stroke="black" d="M217.0,427.0 L217.0,419.5 M217.0,14.1 L217.0,21.6  h0.01"/>	<g transform="translate(220.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>tennis</tspan></text>
+	</g>
+	<path stroke="black" d="M234.2,427.0 L234.2,419.5 M234.2,14.1 L234.2,21.6  h0.01"/>	<g transform="translate(237.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>acoustics</tspan></text>
+	</g>
+	<path stroke="black" d="M251.4,427.0 L251.4,419.5 M251.4,14.1 L251.4,21.6  h0.01"/>	<g transform="translate(255.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>badminton</tspan></text>
+	</g>
+	<path stroke="black" d="M268.6,427.0 L268.6,419.5 M268.6,14.1 L268.6,21.6  h0.01"/>	<g transform="translate(272.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>dance</tspan></text>
+	</g>
+	<path stroke="black" d="M285.8,427.0 L285.8,419.5 M285.8,14.1 L285.8,21.6  h0.01"/>	<g transform="translate(289.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>fencing</tspan></text>
+	</g>
+	<path stroke="black" d="M303.0,427.0 L303.0,419.5 M303.0,14.1 L303.0,21.6  h0.01"/>	<g transform="translate(306.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>football</tspan></text>
+	</g>
+	<path stroke="black" d="M320.2,427.0 L320.2,419.5 M320.2,14.1 L320.2,21.6  h0.01"/>	<g transform="translate(323.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>gas</tspan></text>
+	</g>
+	<path stroke="black" d="M337.4,427.0 L337.4,419.5 M337.4,14.1 L337.4,21.6  h0.01"/>	<g transform="translate(341.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>graphic</tspan><tspan font-size="8.0pt" dy="3.00pt">a</tspan><tspan font-size="10.0pt" dy="-3.00pt">rts</tspan></text>
+	</g>
+	<path stroke="black" d="M354.6,427.0 L354.6,419.5 M354.6,14.1 L354.6,21.6  h0.01"/>	<g transform="translate(358.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>medicine</tspan></text>
+	</g>
+	<path stroke="black" d="M371.9,427.0 L371.9,419.5 M371.9,14.1 L371.9,21.6  h0.01"/>	<g transform="translate(375.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>optics</tspan></text>
+	</g>
+	<path stroke="black" d="M389.1,427.0 L389.1,419.5 M389.1,14.1 L389.1,21.6  h0.01"/>	<g transform="translate(392.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>physiology</tspan></text>
+	</g>
+	<path stroke="black" d="M406.3,427.0 L406.3,419.5 M406.3,14.1 L406.3,21.6  h0.01"/>	<g transform="translate(410.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>plastic</tspan><tspan font-size="8.0pt" dy="3.00pt">a</tspan><tspan font-size="10.0pt" dy="-3.00pt">rts</tspan></text>
+	</g>
+	<path stroke="black" d="M423.5,427.0 L423.5,419.5 M423.5,14.1 L423.5,21.6  h0.01"/>	<g transform="translate(427.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>psychoanalysis</tspan></text>
+	</g>
+	<path stroke="black" d="M440.7,427.0 L440.7,419.5 M440.7,14.1 L440.7,21.6  h0.01"/>	<g transform="translate(444.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>radiology</tspan></text>
+	</g>
+	<path stroke="black" d="M457.9,427.0 L457.9,419.5 M457.9,14.1 L457.9,21.6  h0.01"/>	<g transform="translate(461.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>swimming</tspan></text>
+	</g>
+	<path stroke="black" d="M475.1,427.0 L475.1,419.5 M475.1,14.1 L475.1,21.6  h0.01"/>	<g transform="translate(478.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>table</tspan><tspan font-size="8.0pt" dy="3.00pt">t</tspan><tspan font-size="10.0pt" dy="-3.00pt">ennis</tspan></text>
+	</g>
+	<path stroke="black" d="M492.3,427.0 L492.3,419.5 M492.3,14.1 L492.3,21.6  h0.01"/>	<g transform="translate(496.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>anatomy</tspan></text>
+	</g>
+	<path stroke="black" d="M509.5,427.0 L509.5,419.5 M509.5,14.1 L509.5,21.6  h0.01"/>	<g transform="translate(513.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>astronautics</tspan></text>
+	</g>
+	<path stroke="black" d="M526.7,427.0 L526.7,419.5 M526.7,14.1 L526.7,21.6  h0.01"/>	<g transform="translate(530.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>atomic</tspan><tspan font-size="8.0pt" dy="3.00pt">p</tspan><tspan font-size="10.0pt" dy="-3.00pt">hysic</tspan></text>
+	</g>
+	<path stroke="black" d="M543.9,427.0 L543.9,419.5 M543.9,14.1 L543.9,21.6  h0.01"/>	<g transform="translate(547.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>aviation</tspan></text>
+	</g>
+	<path stroke="black" d="M561.1,427.0 L561.1,419.5 M561.1,14.1 L561.1,21.6  h0.01"/>	<g transform="translate(564.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>book</tspan><tspan font-size="8.0pt" dy="3.00pt">k</tspan><tspan font-size="10.0pt" dy="-3.00pt">eeping</tspan></text>
+	</g>
+	<path stroke="black" d="M578.4,427.0 L578.4,419.5 M578.4,14.1 L578.4,21.6  h0.01"/>	<g transform="translate(582.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>dentistry</tspan></text>
+	</g>
+	<path stroke="black" d="M595.6,427.0 L595.6,419.5 M595.6,14.1 L595.6,21.6  h0.01"/>	<g transform="translate(599.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>diving</tspan></text>
+	</g>
+	<path stroke="black" d="M612.8,427.0 L612.8,419.5 M612.8,14.1 L612.8,21.6  h0.01"/>	<g transform="translate(616.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>genetics</tspan></text>
+	</g>
+	<path stroke="black" d="M630.0,427.0 L630.0,419.5 M630.0,14.1 L630.0,21.6  h0.01"/>	<g transform="translate(633.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>home</tspan></text>
+	</g>
+	<path stroke="black" d="M647.2,427.0 L647.2,419.5 M647.2,14.1 L647.2,21.6  h0.01"/>	<g transform="translate(650.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>humanities</tspan></text>
+	</g>
+	<path stroke="black" d="M664.4,427.0 L664.4,419.5 M664.4,14.1 L664.4,21.6  h0.01"/>	<g transform="translate(668.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>hydraulics</tspan></text>
+	</g>
+	<path stroke="black" d="M681.6,427.0 L681.6,419.5 M681.6,14.1 L681.6,21.6  h0.01"/>	<g transform="translate(685.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>insurance</tspan></text>
+	</g>
+	<path stroke="black" d="M698.8,427.0 L698.8,419.5 M698.8,14.1 L698.8,21.6  h0.01"/>	<g transform="translate(702.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>linguistics</tspan></text>
+	</g>
+	<path stroke="black" d="M716.0,427.0 L716.0,419.5 M716.0,14.1 L716.0,21.6  h0.01"/>	<g transform="translate(719.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>music</tspan></text>
+	</g>
+	<path stroke="black" d="M733.2,427.0 L733.2,419.5 M733.2,14.1 L733.2,21.6  h0.01"/>	<g transform="translate(736.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>pharmacy</tspan></text>
+	</g>
+	<path stroke="black" d="M750.4,427.0 L750.4,419.5 M750.4,14.1 L750.4,21.6  h0.01"/>	<g transform="translate(754.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>philology</tspan></text>
+	</g>
+	<path stroke="black" d="M767.6,427.0 L767.6,419.5 M767.6,14.1 L767.6,21.6  h0.01"/>	<g transform="translate(771.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>photography</tspan></text>
+	</g>
+	<path stroke="black" d="M784.9,427.0 L784.9,419.5 M784.9,14.1 L784.9,21.6  h0.01"/>	<g transform="translate(788.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>psychiatry</tspan></text>
+	</g>
+	<path stroke="black" d="M802.1,427.0 L802.1,419.5 M802.1,14.1 L802.1,21.6  h0.01"/>	<g transform="translate(805.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>pure</tspan><tspan font-size="8.0pt" dy="3.00pt">s</tspan><tspan font-size="10.0pt" dy="-3.00pt">cience</tspan></text>
+	</g>
+	<path stroke="black" d="M819.3,427.0 L819.3,419.5 M819.3,14.1 L819.3,21.6  h0.01"/>	<g transform="translate(823.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>radio</tspan></text>
+	</g>
+	<path stroke="black" d="M836.5,427.0 L836.5,419.5 M836.5,14.1 L836.5,21.6  h0.01"/>	<g transform="translate(840.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>roman</tspan><tspan font-size="8.0pt" dy="3.00pt">c</tspan><tspan font-size="10.0pt" dy="-3.00pt">atholic</tspan></text>
+	</g>
+	<path stroke="black" d="M853.7,427.0 L853.7,419.5 M853.7,14.1 L853.7,21.6  h0.01"/>	<g transform="translate(857.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>sculpture</tspan></text>
+	</g>
+	<path stroke="black" d="M870.9,427.0 L870.9,419.5 M870.9,14.1 L870.9,21.6  h0.01"/>	<g transform="translate(874.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>skiing</tspan></text>
+	</g>
+	<path stroke="black" d="M888.1,427.0 L888.1,419.5 M888.1,14.1 L888.1,21.6  h0.01"/>	<g transform="translate(891.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>social</tspan></text>
+	</g>
+	<path stroke="black" d="M905.3,427.0 L905.3,419.5 M905.3,14.1 L905.3,21.6  h0.01"/>	<g transform="translate(909.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>topography</tspan></text>
+	</g>
+	<path stroke="black" d="M922.5,427.0 L922.5,419.5 M922.5,14.1 L922.5,21.6  h0.01"/>	<g transform="translate(926.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>tv</tspan></text>
+	</g>
+	<path stroke="black" d="M939.7,427.0 L939.7,419.5 M939.7,14.1 L939.7,21.6  h0.01"/>	<g transform="translate(943.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>vehicles</tspan></text>
+	</g>
+	<path stroke="black" d="M956.9,427.0 L956.9,419.5 M956.9,14.1 L956.9,21.6  h0.01"/>	<g transform="translate(960.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>wrestling</tspan></text>
+	</g>
+	<path stroke="black" d="M974.1,427.0 L974.1,419.5 M974.1,14.1 L974.1,21.6  h0.01"/>	<g transform="translate(977.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>archaeology</tspan></text>
+	</g>
+	<path stroke="black" d="M991.3,427.0 L991.3,419.5 M991.3,14.1 L991.3,21.6  h0.01"/>	<g transform="translate(995.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>architecture</tspan></text>
+	</g>
+	<path stroke="black" d="M1008.6,427.0 L1008.6,419.5 M1008.6,14.1 L1008.6,21.6  h0.01"/>	<g transform="translate(1012.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>artisanship</tspan></text>
+	</g>
+	<path stroke="black" d="M1025.8,427.0 L1025.8,419.5 M1025.8,14.1 L1025.8,21.6  h0.01"/>	<g transform="translate(1029.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>astrology</tspan></text>
+	</g>
+	<path stroke="black" d="M1043.0,427.0 L1043.0,419.5 M1043.0,14.1 L1043.0,21.6  h0.01"/>	<g transform="translate(1046.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>baseball</tspan></text>
+	</g>
+	<path stroke="black" d="M1060.2,427.0 L1060.2,419.5 M1060.2,14.1 L1060.2,21.6  h0.01"/>	<g transform="translate(1063.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>betting</tspan></text>
+	</g>
+	<path stroke="black" d="M1077.4,427.0 L1077.4,419.5 M1077.4,14.1 L1077.4,21.6  h0.01"/>	<g transform="translate(1081.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>biochemistry</tspan></text>
+	</g>
+	<path stroke="black" d="M1094.6,427.0 L1094.6,419.5 M1094.6,14.1 L1094.6,21.6  h0.01"/>	<g transform="translate(1098.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>bowling</tspan></text>
+	</g>
+	<path stroke="black" d="M1111.8,427.0 L1111.8,419.5 M1111.8,14.1 L1111.8,21.6  h0.01"/>	<g transform="translate(1115.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>cricket</tspan></text>
+	</g>
+	<path stroke="black" d="M1129.0,427.0 L1129.0,419.5 M1129.0,14.1 L1129.0,21.6  h0.01"/>	<g transform="translate(1132.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>drawing</tspan></text>
+	</g>
+	<path stroke="black" d="M1146.2,427.0 L1146.2,419.5 M1146.2,14.1 L1146.2,21.6  h0.01"/>	<g transform="translate(1149.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>electricity</tspan></text>
+	</g>
+	<path stroke="black" d="M1163.4,427.0 L1163.4,419.5 M1163.4,14.1 L1163.4,21.6  h0.01"/>	<g transform="translate(1167.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>electrotechnology</tspan></text>
+	</g>
+	<path stroke="black" d="M1180.6,427.0 L1180.6,419.5 M1180.6,14.1 L1180.6,21.6  h0.01"/>	<g transform="translate(1184.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>enterprise</tspan></text>
+	</g>
+	<path stroke="black" d="M1197.8,427.0 L1197.8,419.5 M1197.8,14.1 L1197.8,21.6  h0.01"/>	<g transform="translate(1201.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>entomology</tspan></text>
+	</g>
+	<path stroke="black" d="M1215.1,427.0 L1215.1,419.5 M1215.1,14.1 L1215.1,21.6  h0.01"/>	<g transform="translate(1218.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>environment</tspan></text>
+	</g>
+	<path stroke="black" d="M1232.3,427.0 L1232.3,419.5 M1232.3,14.1 L1232.3,21.6  h0.01"/>	<g transform="translate(1236.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>ethnology</tspan></text>
+	</g>
+	<path stroke="black" d="M1249.5,427.0 L1249.5,419.5 M1249.5,14.1 L1249.5,21.6  h0.01"/>	<g transform="translate(1253.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>fashion</tspan></text>
+	</g>
+	<path stroke="black" d="M1266.7,427.0 L1266.7,419.5 M1266.7,14.1 L1266.7,21.6  h0.01"/>	<g transform="translate(1270.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>finance</tspan></text>
+	</g>
+	<path stroke="black" d="M1283.9,427.0 L1283.9,419.5 M1283.9,14.1 L1283.9,21.6  h0.01"/>	<g transform="translate(1287.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>fishing</tspan></text>
+	</g>
+	<path stroke="black" d="M1301.1,427.0 L1301.1,419.5 M1301.1,14.1 L1301.1,21.6  h0.01"/>	<g transform="translate(1304.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>food</tspan></text>
+	</g>
+	<path stroke="black" d="M1318.3,427.0 L1318.3,419.5 M1318.3,14.1 L1318.3,21.6  h0.01"/>	<g transform="translate(1322.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>golf</tspan></text>
+	</g>
+	<path stroke="black" d="M1335.5,427.0 L1335.5,419.5 M1335.5,14.1 L1335.5,21.6  h0.01"/>	<g transform="translate(1339.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>heraldry</tspan></text>
+	</g>
+	<path stroke="black" d="M1352.7,427.0 L1352.7,419.5 M1352.7,14.1 L1352.7,21.6  h0.01"/>	<g transform="translate(1356.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>mechanics</tspan></text>
+	</g>
+	<path stroke="black" d="M1369.9,427.0 L1369.9,419.5 M1369.9,14.1 L1369.9,21.6  h0.01"/>	<g transform="translate(1373.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>mountaineering</tspan></text>
+	</g>
+	<path stroke="black" d="M1387.1,427.0 L1387.1,419.5 M1387.1,14.1 L1387.1,21.6  h0.01"/>	<g transform="translate(1390.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>nautical</tspan></text>
+	</g>
+	<path stroke="black" d="M1404.3,427.0 L1404.3,419.5 M1404.3,14.1 L1404.3,21.6  h0.01"/>	<g transform="translate(1408.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>number</tspan></text>
+	</g>
+	<path stroke="black" d="M1421.6,427.0 L1421.6,419.5 M1421.6,14.1 L1421.6,21.6  h0.01"/>	<g transform="translate(1425.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>occultism</tspan></text>
+	</g>
+	<path stroke="black" d="M1438.8,427.0 L1438.8,419.5 M1438.8,14.1 L1438.8,21.6  h0.01"/>	<g transform="translate(1442.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>painting</tspan></text>
+	</g>
+	<path stroke="black" d="M1456.0,427.0 L1456.0,419.5 M1456.0,14.1 L1456.0,21.6  h0.01"/>	<g transform="translate(1459.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>paleontology</tspan></text>
+	</g>
+	<path stroke="black" d="M1473.2,427.0 L1473.2,419.5 M1473.2,14.1 L1473.2,21.6  h0.01"/>	<g transform="translate(1476.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>paranormal</tspan></text>
+	</g>
+	<path stroke="black" d="M1490.4,427.0 L1490.4,419.5 M1490.4,14.1 L1490.4,21.6  h0.01"/>	<g transform="translate(1494.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>pedagogy</tspan></text>
+	</g>
+	<path stroke="black" d="M1507.6,427.0 L1507.6,419.5 M1507.6,14.1 L1507.6,21.6  h0.01"/>	<g transform="translate(1511.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>plants</tspan></text>
+	</g>
+	<path stroke="black" d="M1524.8,427.0 L1524.8,419.5 M1524.8,14.1 L1524.8,21.6  h0.01"/>	<g transform="translate(1528.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>post</tspan></text>
+	</g>
+	<path stroke="black" d="M1542.0,427.0 L1542.0,419.5 M1542.0,14.1 L1542.0,21.6  h0.01"/>	<g transform="translate(1545.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>psychology</tspan></text>
+	</g>
+	<path stroke="black" d="M1559.2,427.0 L1559.2,419.5 M1559.2,14.1 L1559.2,21.6  h0.01"/>	<g transform="translate(1562.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>railway</tspan></text>
+	</g>
+	<path stroke="black" d="M1576.4,427.0 L1576.4,419.5 M1576.4,14.1 L1576.4,21.6  h0.01"/>	<g transform="translate(1580.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>rowing</tspan></text>
+	</g>
+	<path stroke="black" d="M1593.6,427.0 L1593.6,419.5 M1593.6,14.1 L1593.6,21.6  h0.01"/>	<g transform="translate(1597.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>social</tspan><tspan font-size="8.0pt" dy="3.00pt">s</tspan><tspan font-size="10.0pt" dy="-3.00pt">cience</tspan></text>
+	</g>
+	<path stroke="black" d="M1610.8,427.0 L1610.8,419.5 M1610.8,14.1 L1610.8,21.6  h0.01"/>	<g transform="translate(1614.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>sport</tspan></text>
+	</g>
+	<path stroke="black" d="M1628.1,427.0 L1628.1,419.5 M1628.1,14.1 L1628.1,21.6  h0.01"/>	<g transform="translate(1631.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>volleyball</tspan></text>
+	</g>
+	<path stroke="black" d="M1645.3,427.0 L1645.3,419.5 M1645.3,14.1 L1645.3,21.6  h0.01"/>	<g transform="translate(1649.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>agriculture</tspan></text>
+	</g>
+	<path stroke="black" d="M1662.5,427.0 L1662.5,419.5 M1662.5,14.1 L1662.5,21.6  h0.01"/>	<g transform="translate(1666.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>animal</tspan><tspan font-size="8.0pt" dy="3.00pt">h</tspan><tspan font-size="10.0pt" dy="-3.00pt">usbandry</tspan></text>
+	</g>
+	<path stroke="black" d="M1679.7,427.0 L1679.7,419.5 M1679.7,14.1 L1679.7,21.6  h0.01"/>	<g transform="translate(1683.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>animals</tspan></text>
+	</g>
+	<path stroke="black" d="M1696.9,427.0 L1696.9,419.5 M1696.9,14.1 L1696.9,21.6  h0.01"/>	<g transform="translate(1700.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>anthropology</tspan></text>
+	</g>
+	<path stroke="black" d="M1714.1,427.0 L1714.1,419.5 M1714.1,14.1 L1714.1,21.6  h0.01"/>	<g transform="translate(1717.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>applied</tspan><tspan font-size="8.0pt" dy="3.00pt">s</tspan><tspan font-size="10.0pt" dy="-3.00pt">cience</tspan></text>
+	</g>
+	<path stroke="black" d="M1731.3,427.0 L1731.3,419.5 M1731.3,14.1 L1731.3,21.6  h0.01"/>	<g transform="translate(1735.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>archery</tspan></text>
+	</g>
+	<path stroke="black" d="M1748.5,427.0 L1748.5,419.5 M1748.5,14.1 L1748.5,21.6  h0.01"/>	<g transform="translate(1752.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>art</tspan></text>
+	</g>
+	<path stroke="black" d="M1765.7,427.0 L1765.7,419.5 M1765.7,14.1 L1765.7,21.6  h0.01"/>	<g transform="translate(1769.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>banking</tspan></text>
+	</g>
+	<path stroke="black" d="M1782.9,427.0 L1782.9,419.5 M1782.9,14.1 L1782.9,21.6  h0.01"/>	<g transform="translate(1786.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>boxing</tspan></text>
+	</g>
+	<path stroke="black" d="M1800.1,427.0 L1800.1,419.5 M1800.1,14.1 L1800.1,21.6  h0.01"/>	<g transform="translate(1803.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>card</tspan></text>
+	</g>
+	<path stroke="black" d="M1817.3,427.0 L1817.3,419.5 M1817.3,14.1 L1817.3,21.6  h0.01"/>	<g transform="translate(1821.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>chemistry</tspan></text>
+	</g>
+	<path stroke="black" d="M1834.6,427.0 L1834.6,419.5 M1834.6,14.1 L1834.6,21.6  h0.01"/>	<g transform="translate(1838.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>color</tspan></text>
+	</g>
+	<path stroke="black" d="M1851.8,427.0 L1851.8,419.5 M1851.8,14.1 L1851.8,21.6  h0.01"/>	<g transform="translate(1855.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>cycling</tspan></text>
+	</g>
+	<path stroke="black" d="M1869.0,427.0 L1869.0,419.5 M1869.0,14.1 L1869.0,21.6  h0.01"/>	<g transform="translate(1872.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>diplomacy</tspan></text>
+	</g>
+	<path stroke="black" d="M1886.2,427.0 L1886.2,419.5 M1886.2,14.1 L1886.2,21.6  h0.01"/>	<g transform="translate(1889.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>earth</tspan></text>
+	</g>
+	<path stroke="black" d="M1903.4,427.0 L1903.4,419.5 M1903.4,14.1 L1903.4,21.6  h0.01"/>	<g transform="translate(1907.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>electronics</tspan></text>
+	</g>
+	<path stroke="black" d="M1920.6,427.0 L1920.6,419.5 M1920.6,14.1 L1920.6,21.6  h0.01"/>	<g transform="translate(1924.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>engineering</tspan></text>
+	</g>
+	<path stroke="black" d="M1937.8,427.0 L1937.8,419.5 M1937.8,14.1 L1937.8,21.6  h0.01"/>	<g transform="translate(1941.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>exchange</tspan></text>
+	</g>
+	<path stroke="black" d="M1955.0,427.0 L1955.0,419.5 M1955.0,14.1 L1955.0,21.6  h0.01"/>	<g transform="translate(1958.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>folklore</tspan></text>
+	</g>
+	<path stroke="black" d="M1972.2,427.0 L1972.2,419.5 M1972.2,14.1 L1972.2,21.6  h0.01"/>	<g transform="translate(1975.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>gastronomy</tspan></text>
+	</g>
+	<path stroke="black" d="M1989.4,427.0 L1989.4,419.5 M1989.4,14.1 L1989.4,21.6  h0.01"/>	<g transform="translate(1993.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>geometry</tspan></text>
+	</g>
+	<path stroke="black" d="M2006.6,427.0 L2006.6,419.5 M2006.6,14.1 L2006.6,21.6  h0.01"/>	<g transform="translate(2010.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>history</tspan></text>
+	</g>
+	<path stroke="black" d="M2023.8,427.0 L2023.8,419.5 M2023.8,14.1 L2023.8,21.6  h0.01"/>	<g transform="translate(2027.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>hockey</tspan></text>
+	</g>
+	<path stroke="black" d="M2041.1,427.0 L2041.1,419.5 M2041.1,14.1 L2041.1,21.6  h0.01"/>	<g transform="translate(2044.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>hunting</tspan></text>
+	</g>
+	<path stroke="black" d="M2058.3,427.0 L2058.3,419.5 M2058.3,14.1 L2058.3,21.6  h0.01"/>	<g transform="translate(2062.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>industry</tspan></text>
+	</g>
+	<path stroke="black" d="M2075.5,427.0 L2075.5,419.5 M2075.5,14.1 L2075.5,21.6  h0.01"/>	<g transform="translate(2079.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>jewellery</tspan></text>
+	</g>
+	<path stroke="black" d="M2092.7,427.0 L2092.7,419.5 M2092.7,14.1 L2092.7,21.6  h0.01"/>	<g transform="translate(2096.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>law</tspan></text>
+	</g>
+	<path stroke="black" d="M2109.9,427.0 L2109.9,419.5 M2109.9,14.1 L2109.9,21.6  h0.01"/>	<g transform="translate(2113.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>metrology</tspan></text>
+	</g>
+	<path stroke="black" d="M2127.1,427.0 L2127.1,419.5 M2127.1,14.1 L2127.1,21.6  h0.01"/>	<g transform="translate(2130.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>numismatics</tspan></text>
+	</g>
+	<path stroke="black" d="M2144.3,427.0 L2144.3,419.5 M2144.3,14.1 L2144.3,21.6  h0.01"/>	<g transform="translate(2148.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>oceanography</tspan></text>
+	</g>
+	<path stroke="black" d="M2161.5,427.0 L2161.5,419.5 M2161.5,14.1 L2161.5,21.6  h0.01"/>	<g transform="translate(2165.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>play</tspan></text>
+	</g>
+	<path stroke="black" d="M2178.7,427.0 L2178.7,419.5 M2178.7,14.1 L2178.7,21.6  h0.01"/>	<g transform="translate(2182.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>politics</tspan></text>
+	</g>
+	<path stroke="black" d="M2195.9,427.0 L2195.9,419.5 M2195.9,14.1 L2195.9,21.6  h0.01"/>	<g transform="translate(2199.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>psychological</tspan><tspan font-size="8.0pt" dy="3.00pt">f</tspan><tspan font-size="10.0pt" dy="-3.00pt">eatures</tspan></text>
+	</g>
+	<path stroke="black" d="M2213.1,427.0 L2213.1,419.5 M2213.1,14.1 L2213.1,21.6  h0.01"/>	<g transform="translate(2216.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>school</tspan></text>
+	</g>
+	<path stroke="black" d="M2230.3,427.0 L2230.3,419.5 M2230.3,14.1 L2230.3,21.6  h0.01"/>	<g transform="translate(2234.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>sexuality</tspan></text>
+	</g>
+	<path stroke="black" d="M2247.6,427.0 L2247.6,419.5 M2247.6,14.1 L2247.6,21.6  h0.01"/>	<g transform="translate(2251.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>skating</tspan></text>
+	</g>
+	<path stroke="black" d="M2264.8,427.0 L2264.8,419.5 M2264.8,14.1 L2264.8,21.6  h0.01"/>	<g transform="translate(2268.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>sociology</tspan></text>
+	</g>
+	<path stroke="black" d="M2282.0,427.0 L2282.0,419.5 M2282.0,14.1 L2282.0,21.6  h0.01"/>	<g transform="translate(2285.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>statistics</tspan></text>
+	</g>
+	<path stroke="black" d="M2299.2,427.0 L2299.2,419.5 M2299.2,14.1 L2299.2,21.6  h0.01"/>	<g transform="translate(2302.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>telegraphy</tspan></text>
+	</g>
+	<path stroke="black" d="M2316.4,427.0 L2316.4,419.5 M2316.4,14.1 L2316.4,21.6  h0.01"/>	<g transform="translate(2320.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>theatre</tspan></text>
+	</g>
+	<path stroke="black" d="M2333.6,427.0 L2333.6,419.5 M2333.6,14.1 L2333.6,21.6  h0.01"/>	<g transform="translate(2337.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>theology</tspan></text>
+	</g>
+	<path stroke="black" d="M2350.8,427.0 L2350.8,419.5 M2350.8,14.1 L2350.8,21.6  h0.01"/>	<g transform="translate(2354.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>transport</tspan></text>
+	</g>
+	<path stroke="black" d="M2368.0,427.0 L2368.0,419.5 M2368.0,14.1 L2368.0,21.6  h0.01"/>	<g transform="translate(2371.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>university</tspan></text>
+	</g>
+	<path stroke="black" d="M2385.2,427.0 L2385.2,419.5 M2385.2,14.1 L2385.2,21.6  h0.01"/>	<g transform="translate(2388.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>biology</tspan></text>
+	</g>
+	<path stroke="black" d="M2402.4,427.0 L2402.4,419.5 M2402.4,14.1 L2402.4,21.6  h0.01"/>	<g transform="translate(2406.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>commerce</tspan></text>
+	</g>
+	<path stroke="black" d="M2419.6,427.0 L2419.6,419.5 M2419.6,14.1 L2419.6,21.6  h0.01"/>	<g transform="translate(2423.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>factotum</tspan></text>
+	</g>
+	<path stroke="black" d="M2436.8,427.0 L2436.8,419.5 M2436.8,14.1 L2436.8,21.6  h0.01"/>	<g transform="translate(2440.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>free</tspan><tspan font-size="8.0pt" dy="3.00pt">t</tspan><tspan font-size="10.0pt" dy="-3.00pt">ime</tspan></text>
+	</g>
+	<path stroke="black" d="M2454.0,427.0 L2454.0,419.5 M2454.0,14.1 L2454.0,21.6  h0.01"/>	<g transform="translate(2457.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>literature</tspan></text>
+	</g>
+	<path stroke="black" d="M2471.3,427.0 L2471.3,419.5 M2471.3,14.1 L2471.3,21.6  h0.01"/>	<g transform="translate(2475.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>mathematics</tspan></text>
+	</g>
+	<path stroke="black" d="M2488.5,427.0 L2488.5,419.5 M2488.5,14.1 L2488.5,21.6  h0.01"/>	<g transform="translate(2492.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>meteorology</tspan></text>
+	</g>
+	<path stroke="black" d="M2505.7,427.0 L2505.7,419.5 M2505.7,14.1 L2505.7,21.6  h0.01"/>	<g transform="translate(2509.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>military</tspan></text>
+	</g>
+	<path stroke="black" d="M2522.9,427.0 L2522.9,419.5 M2522.9,14.1 L2522.9,21.6  h0.01"/>	<g transform="translate(2526.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>money</tspan></text>
+	</g>
+	<path stroke="black" d="M2540.1,427.0 L2540.1,419.5 M2540.1,14.1 L2540.1,21.6  h0.01"/>	<g transform="translate(2543.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>philosophy</tspan></text>
+	</g>
+	<path stroke="black" d="M2557.3,427.0 L2557.3,419.5 M2557.3,14.1 L2557.3,21.6  h0.01"/>	<g transform="translate(2561.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>physics</tspan></text>
+	</g>
+	<path stroke="black" d="M2574.5,427.0 L2574.5,419.5 M2574.5,14.1 L2574.5,21.6  h0.01"/>	<g transform="translate(2578.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>racing</tspan></text>
+	</g>
+	<path stroke="black" d="M2591.7,427.0 L2591.7,419.5 M2591.7,14.1 L2591.7,21.6  h0.01"/>	<g transform="translate(2595.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>religion</tspan></text>
+	</g>
+	<path stroke="black" d="M2608.9,427.0 L2608.9,419.5 M2608.9,14.1 L2608.9,21.6  h0.01"/>	<g transform="translate(2612.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>sub</tspan></text>
+	</g>
+	<path stroke="black" d="M2626.1,427.0 L2626.1,419.5 M2626.1,14.1 L2626.1,21.6  h0.01"/>	<g transform="translate(2629.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>surgery</tspan></text>
+	</g>
+	<path stroke="black" d="M2643.3,427.0 L2643.3,419.5 M2643.3,14.1 L2643.3,21.6  h0.01"/>	<g transform="translate(2647.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>tax</tspan></text>
+	</g>
+	<path stroke="black" d="M2660.5,427.0 L2660.5,419.5 M2660.5,14.1 L2660.5,21.6  h0.01"/>	<g transform="translate(2664.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>telephony</tspan></text>
+	</g>
+	<path stroke="black" d="M2677.8,427.0 L2677.8,419.5 M2677.8,14.1 L2677.8,21.6  h0.01"/>	<g transform="translate(2681.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>time</tspan><tspan font-size="8.0pt" dy="3.00pt">p</tspan><tspan font-size="10.0pt" dy="-3.00pt">eriod</tspan></text>
+	</g>
+	<path stroke="black" d="M2695.0,427.0 L2695.0,419.5 M2695.0,14.1 L2695.0,21.6  h0.01"/>	<g transform="translate(2698.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>tourism</tspan></text>
+	</g>
+	<path stroke="black" d="M2712.2,427.0 L2712.2,419.5 M2712.2,14.1 L2712.2,21.6  h0.01"/>	<g transform="translate(2715.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>administration</tspan></text>
+	</g>
+	<path stroke="black" d="M2729.4,427.0 L2729.4,419.5 M2729.4,14.1 L2729.4,21.6  h0.01"/>	<g transform="translate(2733.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>astronomy</tspan></text>
+	</g>
+	<path stroke="black" d="M2746.6,427.0 L2746.6,419.5 M2746.6,14.1 L2746.6,21.6  h0.01"/>	<g transform="translate(2750.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>buildings</tspan></text>
+	</g>
+	<path stroke="black" d="M2763.8,427.0 L2763.8,419.5 M2763.8,14.1 L2763.8,21.6  h0.01"/>	<g transform="translate(2767.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>cinema</tspan></text>
+	</g>
+	<path stroke="black" d="M2781.0,427.0 L2781.0,419.5 M2781.0,14.1 L2781.0,21.6  h0.01"/>	<g transform="translate(2784.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>computer</tspan><tspan font-size="8.0pt" dy="3.00pt">s</tspan><tspan font-size="10.0pt" dy="-3.00pt">cience</tspan></text>
+	</g>
+	<path stroke="black" d="M2798.2,427.0 L2798.2,419.5 M2798.2,14.1 L2798.2,21.6  h0.01"/>	<g transform="translate(2801.9,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>economy</tspan></text>
+	</g>
+	<path stroke="black" d="M2815.4,427.0 L2815.4,419.5 M2815.4,14.1 L2815.4,21.6  h0.01"/>	<g transform="translate(2819.1,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>furniture</tspan></text>
+	</g>
+	<path stroke="black" d="M2832.6,427.0 L2832.6,419.5 M2832.6,14.1 L2832.6,21.6  h0.01"/>	<g transform="translate(2836.3,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>geography</tspan></text>
+	</g>
+	<path stroke="black" d="M2849.8,427.0 L2849.8,419.5 M2849.8,14.1 L2849.8,21.6  h0.01"/>	<g transform="translate(2853.5,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>geology</tspan></text>
+	</g>
+	<path stroke="black" d="M2867.0,427.0 L2867.0,419.5 M2867.0,14.1 L2867.0,21.6  h0.01"/>	<g transform="translate(2870.7,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>mythology</tspan></text>
+	</g>
+	<path stroke="black" d="M2884.3,427.0 L2884.3,419.5 M2884.3,14.1 L2884.3,21.6  h0.01"/>	<g transform="translate(2888.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>person</tspan></text>
+	</g>
+	<path stroke="black" d="M2901.5,427.0 L2901.5,419.5 M2901.5,14.1 L2901.5,21.6  h0.01"/>	<g transform="translate(2905.2,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>philately</tspan></text>
+	</g>
+	<path stroke="black" d="M2918.7,427.0 L2918.7,419.5 M2918.7,14.1 L2918.7,21.6  h0.01"/>	<g transform="translate(2922.4,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>publishing</tspan></text>
+	</g>
+	<path stroke="black" d="M2935.9,427.0 L2935.9,419.5 M2935.9,14.1 L2935.9,21.6  h0.01"/>	<g transform="translate(2939.6,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>quality</tspan></text>
+	</g>
+	<path stroke="black" d="M2953.1,427.0 L2953.1,419.5 M2953.1,14.1 L2953.1,21.6  h0.01"/>	<g transform="translate(2956.8,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>telecommunication</tspan></text>
+	</g>
+	<path stroke="black" d="M2970.3,427.0 L2970.3,419.5 M2970.3,14.1 L2970.3,21.6  h0.01"/>	<g transform="translate(2974.0,434.0) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>town</tspan><tspan font-size="8.0pt" dy="3.00pt">p</tspan><tspan font-size="10.0pt" dy="-3.00pt">lanning</tspan></text>
+	</g>
+	<path stroke="black" d="M53.5,14.1 L53.5,427.0 L2978.9,427.0 L2978.9,14.1 L53.5,14.1 Z  h0.01"/>	<g transform="translate(14.7,220.6) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan>Nombre d utilisateurs</tspan></text>
+	</g>
+	<g transform="translate(1516.2,593.2)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan>Domaine</tspan></text>
+	</g>
+</g>
+	<g id="gnuplot_plot_1"><title>gnuplot_plot_1</title>
+<g style="fill:none; color:red; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<g transform="translate(123.5,32.8)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan>Col-Force</tspan></text>
+	</g>
+	<path d="M130.5,32.8 L166.0,32.8 L166.0,25.4 L130.5,25.4 L130.5,32.8 Z  h0.01"/>	<path d="M70.7,427.0 L70.7,381.1 L87.9,381.1 L87.9,427.0 L70.7,427.0 Z  h0.01"/>	<path d="M87.9,427.0 L87.9,335.2 L105.1,335.2 L105.1,427.0 L87.9,427.0 Z  h0.01"/>	<path d="M105.1,427.0 L105.1,289.4 L122.3,289.4 L122.3,427.0 L105.1,427.0 Z  h0.01"/>	<path d="M122.3,427.0 L122.3,289.4 L139.5,289.4 L139.5,427.0 L122.3,427.0 Z  h0.01"/>	<path d="M139.5,427.0 L139.5,289.4 L156.7,289.4 L156.7,427.0 L139.5,427.0 Z  h0.01"/>	<path d="M156.7,427.0 L156.7,289.4 L174.0,289.4 L174.0,427.0 L156.7,427.0 Z  h0.01"/>	<path d="M174.0,427.0 L174.0,289.4 L191.2,289.4 L191.2,427.0 L174.0,427.0 Z  h0.01"/>	<path d="M191.2,427.0 L191.2,289.4 L208.4,289.4 L208.4,427.0 L191.2,427.0 Z  h0.01"/>	<path d="M208.4,427.0 L208.4,289.4 L225.6,289.4 L225.6,427.0 L208.4,427.0 Z  h0.01"/>	<path d="M225.6,427.0 L225.6,243.5 L242.8,243.5 L242.8,427.0 L225.6,427.0 Z  h0.01"/>	<path d="M242.8,427.0 L242.8,243.5 L260.0,243.5 L260.0,427.0 L242.8,427.0 Z  h0.01"/>	<path d="M260.0,427.0 L260.0,243.5 L277.2,243.5 L277.2,427.0 L260.0,427.0 Z  h0.01"/>	<path d="M277.2,427.0 L277.2,243.5 L294.4,243.5 L294.4,427.0 L277.2,427.0 Z  h0.01"/>	<path d="M294.4,427.0 L294.4,243.5 L311.6,243.5 L311.6,427.0 L294.4,427.0 Z  h0.01"/>	<path d="M311.6,427.0 L311.6,243.5 L328.8,243.5 L328.8,427.0 L311.6,427.0 Z  h0.01"/>	<path d="M328.8,427.0 L328.8,243.5 L346.0,243.5 L346.0,427.0 L328.8,427.0 Z  h0.01"/>	<path d="M346.0,427.0 L346.0,243.5 L363.2,243.5 L363.2,427.0 L346.0,427.0 Z  h0.01"/>	<path d="M363.2,427.0 L363.2,243.5 L380.5,243.5 L380.5,427.0 L363.2,427.0 Z  h0.01"/>	<path d="M380.5,427.0 L380.5,243.5 L397.7,243.5 L397.7,427.0 L380.5,427.0 Z  h0.01"/>	<path d="M397.7,427.0 L397.7,243.5 L414.9,243.5 L414.9,427.0 L397.7,427.0 Z  h0.01"/>	<path d="M414.9,427.0 L414.9,243.5 L432.1,243.5 L432.1,427.0 L414.9,427.0 Z  h0.01"/>	<path d="M432.1,427.0 L432.1,243.5 L449.3,243.5 L449.3,427.0 L432.1,427.0 Z  h0.01"/>	<path d="M449.3,427.0 L449.3,243.5 L466.5,243.5 L466.5,427.0 L449.3,427.0 Z  h0.01"/>	<path d="M466.5,427.0 L466.5,243.5 L483.7,243.5 L483.7,427.0 L466.5,427.0 Z  h0.01"/>	<path d="M483.7,427.0 L483.7,197.6 L500.9,197.6 L500.9,427.0 L483.7,427.0 Z  h0.01"/>	<path d="M500.9,427.0 L500.9,197.6 L518.1,197.6 L518.1,427.0 L500.9,427.0 Z  h0.01"/>	<path d="M518.1,427.0 L518.1,197.6 L535.3,197.6 L535.3,427.0 L518.1,427.0 Z  h0.01"/>	<path d="M535.3,427.0 L535.3,197.6 L552.5,197.6 L552.5,427.0 L535.3,427.0 Z  h0.01"/>	<path d="M552.5,427.0 L552.5,197.6 L569.7,197.6 L569.7,427.0 L552.5,427.0 Z  h0.01"/>	<path d="M569.7,427.0 L569.7,197.6 L587.0,197.6 L587.0,427.0 L569.7,427.0 Z  h0.01"/>	<path d="M587.0,427.0 L587.0,197.6 L604.2,197.6 L604.2,427.0 L587.0,427.0 Z  h0.01"/>	<path d="M604.2,427.0 L604.2,197.6 L621.4,197.6 L621.4,427.0 L604.2,427.0 Z  h0.01"/>	<path d="M621.4,427.0 L621.4,197.6 L638.6,197.6 L638.6,427.0 L621.4,427.0 Z  h0.01"/>	<path d="M638.6,427.0 L638.6,197.6 L655.8,197.6 L655.8,427.0 L638.6,427.0 Z  h0.01"/>	<path d="M655.8,427.0 L655.8,197.6 L673.0,197.6 L673.0,427.0 L655.8,427.0 Z  h0.01"/>	<path d="M673.0,427.0 L673.0,197.6 L690.2,197.6 L690.2,427.0 L673.0,427.0 Z  h0.01"/>	<path d="M690.2,427.0 L690.2,197.6 L707.4,197.6 L707.4,427.0 L690.2,427.0 Z  h0.01"/>	<path d="M707.4,427.0 L707.4,197.6 L724.6,197.6 L724.6,427.0 L707.4,427.0 Z  h0.01"/>	<path d="M724.6,427.0 L724.6,197.6 L741.8,197.6 L741.8,427.0 L724.6,427.0 Z  h0.01"/>	<path d="M741.8,427.0 L741.8,197.6 L759.0,197.6 L759.0,427.0 L741.8,427.0 Z  h0.01"/>	<path d="M759.0,427.0 L759.0,197.6 L776.2,197.6 L776.2,427.0 L759.0,427.0 Z  h0.01"/>	<path d="M776.2,427.0 L776.2,197.6 L793.5,197.6 L793.5,427.0 L776.2,427.0 Z  h0.01"/>	<path d="M793.5,427.0 L793.5,197.6 L810.7,197.6 L810.7,427.0 L793.5,427.0 Z  h0.01"/>	<path d="M810.7,427.0 L810.7,197.6 L827.9,197.6 L827.9,427.0 L810.7,427.0 Z  h0.01"/>	<path d="M827.9,427.0 L827.9,197.6 L845.1,197.6 L845.1,427.0 L827.9,427.0 Z  h0.01"/>	<path d="M845.1,427.0 L845.1,197.6 L862.3,197.6 L862.3,427.0 L845.1,427.0 Z  h0.01"/>	<path d="M862.3,427.0 L862.3,197.6 L879.5,197.6 L879.5,427.0 L862.3,427.0 Z  h0.01"/>	<path d="M879.5,427.0 L879.5,197.6 L896.7,197.6 L896.7,427.0 L879.5,427.0 Z  h0.01"/>	<path d="M896.7,427.0 L896.7,197.6 L913.9,197.6 L913.9,427.0 L896.7,427.0 Z  h0.01"/>	<path d="M913.9,427.0 L913.9,197.6 L931.1,197.6 L931.1,427.0 L913.9,427.0 Z  h0.01"/>	<path d="M931.1,427.0 L931.1,197.6 L948.3,197.6 L948.3,427.0 L931.1,427.0 Z  h0.01"/>	<path d="M948.3,427.0 L948.3,197.6 L965.5,197.6 L965.5,427.0 L948.3,427.0 Z  h0.01"/>	<path d="M965.5,427.0 L965.5,151.7 L982.7,151.7 L982.7,427.0 L965.5,427.0 Z  h0.01"/>	<path d="M982.7,427.0 L982.7,151.7 L1000.0,151.7 L1000.0,427.0 L982.7,427.0 Z  h0.01"/>	<path d="M1000.0,427.0 L1000.0,151.7 L1017.2,151.7 L1017.2,427.0 L1000.0,427.0 Z  h0.01"/>	<path d="M1017.2,427.0 L1017.2,151.7 L1034.4,151.7 L1034.4,427.0 L1017.2,427.0 Z  h0.01"/>	<path d="M1034.4,427.0 L1034.4,151.7 L1051.6,151.7 L1051.6,427.0 L1034.4,427.0 Z  h0.01"/>	<path d="M1051.6,427.0 L1051.6,151.7 L1068.8,151.7 L1068.8,427.0 L1051.6,427.0 Z  h0.01"/>	<path d="M1068.8,427.0 L1068.8,151.7 L1086.0,151.7 L1086.0,427.0 L1068.8,427.0 Z  h0.01"/>	<path d="M1086.0,427.0 L1086.0,151.7 L1103.2,151.7 L1103.2,427.0 L1086.0,427.0 Z  h0.01"/>	<path d="M1103.2,427.0 L1103.2,151.7 L1120.4,151.7 L1120.4,427.0 L1103.2,427.0 Z  h0.01"/>	<path d="M1120.4,427.0 L1120.4,151.7 L1137.6,151.7 L1137.6,427.0 L1120.4,427.0 Z  h0.01"/>	<path d="M1137.6,427.0 L1137.6,151.7 L1154.8,151.7 L1154.8,427.0 L1137.6,427.0 Z  h0.01"/>	<path d="M1154.8,427.0 L1154.8,151.7 L1172.0,151.7 L1172.0,427.0 L1154.8,427.0 Z  h0.01"/>	<path d="M1172.0,427.0 L1172.0,151.7 L1189.2,151.7 L1189.2,427.0 L1172.0,427.0 Z  h0.01"/>	<path d="M1189.2,427.0 L1189.2,151.7 L1206.5,151.7 L1206.5,427.0 L1189.2,427.0 Z  h0.01"/>	<path d="M1206.5,427.0 L1206.5,151.7 L1223.7,151.7 L1223.7,427.0 L1206.5,427.0 Z  h0.01"/>	<path d="M1223.7,427.0 L1223.7,151.7 L1240.9,151.7 L1240.9,427.0 L1223.7,427.0 Z  h0.01"/>	<path d="M1240.9,427.0 L1240.9,151.7 L1258.1,151.7 L1258.1,427.0 L1240.9,427.0 Z  h0.01"/>	<path d="M1258.1,427.0 L1258.1,151.7 L1275.3,151.7 L1275.3,427.0 L1258.1,427.0 Z  h0.01"/>	<path d="M1275.3,427.0 L1275.3,151.7 L1292.5,151.7 L1292.5,427.0 L1275.3,427.0 Z  h0.01"/>	<path d="M1292.5,427.0 L1292.5,151.7 L1309.7,151.7 L1309.7,427.0 L1292.5,427.0 Z  h0.01"/>	<path d="M1309.7,427.0 L1309.7,151.7 L1326.9,151.7 L1326.9,427.0 L1309.7,427.0 Z  h0.01"/>	<path d="M1326.9,427.0 L1326.9,151.7 L1344.1,151.7 L1344.1,427.0 L1326.9,427.0 Z  h0.01"/>	<path d="M1344.1,427.0 L1344.1,151.7 L1361.3,151.7 L1361.3,427.0 L1344.1,427.0 Z  h0.01"/>	<path d="M1361.3,427.0 L1361.3,151.7 L1378.5,151.7 L1378.5,427.0 L1361.3,427.0 Z  h0.01"/>	<path d="M1378.5,427.0 L1378.5,151.7 L1395.7,151.7 L1395.7,427.0 L1378.5,427.0 Z  h0.01"/>	<path d="M1395.7,427.0 L1395.7,151.7 L1413.0,151.7 L1413.0,427.0 L1395.7,427.0 Z  h0.01"/>	<path d="M1413.0,427.0 L1413.0,151.7 L1430.2,151.7 L1430.2,427.0 L1413.0,427.0 Z  h0.01"/>	<path d="M1430.2,427.0 L1430.2,151.7 L1447.4,151.7 L1447.4,427.0 L1430.2,427.0 Z  h0.01"/>	<path d="M1447.4,427.0 L1447.4,151.7 L1464.6,151.7 L1464.6,427.0 L1447.4,427.0 Z  h0.01"/>	<path d="M1464.6,427.0 L1464.6,151.7 L1481.8,151.7 L1481.8,427.0 L1464.6,427.0 Z  h0.01"/>	<path d="M1481.8,427.0 L1481.8,151.7 L1499.0,151.7 L1499.0,427.0 L1481.8,427.0 Z  h0.01"/>	<path d="M1499.0,427.0 L1499.0,151.7 L1516.2,151.7 L1516.2,427.0 L1499.0,427.0 Z  h0.01"/>	<path d="M1516.2,427.0 L1516.2,151.7 L1533.4,151.7 L1533.4,427.0 L1516.2,427.0 Z  h0.01"/>	<path d="M1533.4,427.0 L1533.4,151.7 L1550.6,151.7 L1550.6,427.0 L1533.4,427.0 Z  h0.01"/>	<path d="M1550.6,427.0 L1550.6,151.7 L1567.8,151.7 L1567.8,427.0 L1550.6,427.0 Z  h0.01"/>	<path d="M1567.8,427.0 L1567.8,151.7 L1585.0,151.7 L1585.0,427.0 L1567.8,427.0 Z  h0.01"/>	<path d="M1585.0,427.0 L1585.0,151.7 L1602.2,151.7 L1602.2,427.0 L1585.0,427.0 Z  h0.01"/>	<path d="M1602.2,427.0 L1602.2,151.7 L1619.4,151.7 L1619.4,427.0 L1602.2,427.0 Z  h0.01"/>	<path d="M1619.4,427.0 L1619.4,151.7 L1636.7,151.7 L1636.7,427.0 L1619.4,427.0 Z  h0.01"/>	<path d="M1636.7,427.0 L1636.7,105.9 L1653.9,105.9 L1653.9,427.0 L1636.7,427.0 Z  h0.01"/>	<path d="M1653.9,427.0 L1653.9,105.9 L1671.1,105.9 L1671.1,427.0 L1653.9,427.0 Z  h0.01"/>	<path d="M1671.1,427.0 L1671.1,105.9 L1688.3,105.9 L1688.3,427.0 L1671.1,427.0 Z  h0.01"/>	<path d="M1688.3,427.0 L1688.3,105.9 L1705.5,105.9 L1705.5,427.0 L1688.3,427.0 Z  h0.01"/>	<path d="M1705.5,427.0 L1705.5,105.9 L1722.7,105.9 L1722.7,427.0 L1705.5,427.0 Z  h0.01"/>	<path d="M1722.7,427.0 L1722.7,105.9 L1739.9,105.9 L1739.9,427.0 L1722.7,427.0 Z  h0.01"/>	<path d="M1739.9,427.0 L1739.9,105.9 L1757.1,105.9 L1757.1,427.0 L1739.9,427.0 Z  h0.01"/>	<path d="M1757.1,427.0 L1757.1,105.9 L1774.3,105.9 L1774.3,427.0 L1757.1,427.0 Z  h0.01"/>	<path d="M1774.3,427.0 L1774.3,105.9 L1791.5,105.9 L1791.5,427.0 L1774.3,427.0 Z  h0.01"/>	<path d="M1791.5,427.0 L1791.5,105.9 L1808.7,105.9 L1808.7,427.0 L1791.5,427.0 Z  h0.01"/>	<path d="M1808.7,427.0 L1808.7,105.9 L1825.9,105.9 L1825.9,427.0 L1808.7,427.0 Z  h0.01"/>	<path d="M1825.9,427.0 L1825.9,105.9 L1843.2,105.9 L1843.2,427.0 L1825.9,427.0 Z  h0.01"/>	<path d="M1843.2,427.0 L1843.2,105.9 L1860.4,105.9 L1860.4,427.0 L1843.2,427.0 Z  h0.01"/>	<path d="M1860.4,427.0 L1860.4,105.9 L1877.6,105.9 L1877.6,427.0 L1860.4,427.0 Z  h0.01"/>	<path d="M1877.6,427.0 L1877.6,105.9 L1894.8,105.9 L1894.8,427.0 L1877.6,427.0 Z  h0.01"/>	<path d="M1894.8,427.0 L1894.8,105.9 L1912.0,105.9 L1912.0,427.0 L1894.8,427.0 Z  h0.01"/>	<path d="M1912.0,427.0 L1912.0,105.9 L1929.2,105.9 L1929.2,427.0 L1912.0,427.0 Z  h0.01"/>	<path d="M1929.2,427.0 L1929.2,105.9 L1946.4,105.9 L1946.4,427.0 L1929.2,427.0 Z  h0.01"/>	<path d="M1946.4,427.0 L1946.4,105.9 L1963.6,105.9 L1963.6,427.0 L1946.4,427.0 Z  h0.01"/>	<path d="M1963.6,427.0 L1963.6,105.9 L1980.8,105.9 L1980.8,427.0 L1963.6,427.0 Z  h0.01"/>	<path d="M1980.8,427.0 L1980.8,105.9 L1998.0,105.9 L1998.0,427.0 L1980.8,427.0 Z  h0.01"/>	<path d="M1998.0,427.0 L1998.0,105.9 L2015.2,105.9 L2015.2,427.0 L1998.0,427.0 Z  h0.01"/>	<path d="M2015.2,427.0 L2015.2,105.9 L2032.4,105.9 L2032.4,427.0 L2015.2,427.0 Z  h0.01"/>	<path d="M2032.4,427.0 L2032.4,105.9 L2049.7,105.9 L2049.7,427.0 L2032.4,427.0 Z  h0.01"/>	<path d="M2049.7,427.0 L2049.7,105.9 L2066.9,105.9 L2066.9,427.0 L2049.7,427.0 Z  h0.01"/>	<path d="M2066.9,427.0 L2066.9,105.9 L2084.1,105.9 L2084.1,427.0 L2066.9,427.0 Z  h0.01"/>	<path d="M2084.1,427.0 L2084.1,105.9 L2101.3,105.9 L2101.3,427.0 L2084.1,427.0 Z  h0.01"/>	<path d="M2101.3,427.0 L2101.3,105.9 L2118.5,105.9 L2118.5,427.0 L2101.3,427.0 Z  h0.01"/>	<path d="M2118.5,427.0 L2118.5,105.9 L2135.7,105.9 L2135.7,427.0 L2118.5,427.0 Z  h0.01"/>	<path d="M2135.7,427.0 L2135.7,105.9 L2152.9,105.9 L2152.9,427.0 L2135.7,427.0 Z  h0.01"/>	<path d="M2152.9,427.0 L2152.9,105.9 L2170.1,105.9 L2170.1,427.0 L2152.9,427.0 Z  h0.01"/>	<path d="M2170.1,427.0 L2170.1,105.9 L2187.3,105.9 L2187.3,427.0 L2170.1,427.0 Z  h0.01"/>	<path d="M2187.3,427.0 L2187.3,105.9 L2204.5,105.9 L2204.5,427.0 L2187.3,427.0 Z  h0.01"/>	<path d="M2204.5,427.0 L2204.5,105.9 L2221.7,105.9 L2221.7,427.0 L2204.5,427.0 Z  h0.01"/>	<path d="M2221.7,427.0 L2221.7,105.9 L2238.9,105.9 L2238.9,427.0 L2221.7,427.0 Z  h0.01"/>	<path d="M2238.9,427.0 L2238.9,105.9 L2256.2,105.9 L2256.2,427.0 L2238.9,427.0 Z  h0.01"/>	<path d="M2256.2,427.0 L2256.2,105.9 L2273.4,105.9 L2273.4,427.0 L2256.2,427.0 Z  h0.01"/>	<path d="M2273.4,427.0 L2273.4,105.9 L2290.6,105.9 L2290.6,427.0 L2273.4,427.0 Z  h0.01"/>	<path d="M2290.6,427.0 L2290.6,105.9 L2307.8,105.9 L2307.8,427.0 L2290.6,427.0 Z  h0.01"/>	<path d="M2307.8,427.0 L2307.8,105.9 L2325.0,105.9 L2325.0,427.0 L2307.8,427.0 Z  h0.01"/>	<path d="M2325.0,427.0 L2325.0,105.9 L2342.2,105.9 L2342.2,427.0 L2325.0,427.0 Z  h0.01"/>	<path d="M2342.2,427.0 L2342.2,105.9 L2359.4,105.9 L2359.4,427.0 L2342.2,427.0 Z  h0.01"/>	<path d="M2359.4,427.0 L2359.4,105.9 L2376.6,105.9 L2376.6,427.0 L2359.4,427.0 Z  h0.01"/>	<path d="M2376.6,427.0 L2376.6,60.0 L2393.8,60.0 L2393.8,427.0 L2376.6,427.0 Z  h0.01"/>	<path d="M2393.8,427.0 L2393.8,60.0 L2411.0,60.0 L2411.0,427.0 L2393.8,427.0 Z  h0.01"/>	<path d="M2411.0,427.0 L2411.0,60.0 L2428.2,60.0 L2428.2,427.0 L2411.0,427.0 Z  h0.01"/>	<path d="M2428.2,427.0 L2428.2,60.0 L2445.4,60.0 L2445.4,427.0 L2428.2,427.0 Z  h0.01"/>	<path d="M2445.4,427.0 L2445.4,60.0 L2462.7,60.0 L2462.7,427.0 L2445.4,427.0 Z  h0.01"/>	<path d="M2462.7,427.0 L2462.7,60.0 L2479.9,60.0 L2479.9,427.0 L2462.7,427.0 Z  h0.01"/>	<path d="M2479.9,427.0 L2479.9,60.0 L2497.1,60.0 L2497.1,427.0 L2479.9,427.0 Z  h0.01"/>	<path d="M2497.1,427.0 L2497.1,60.0 L2514.3,60.0 L2514.3,427.0 L2497.1,427.0 Z  h0.01"/>	<path d="M2514.3,427.0 L2514.3,60.0 L2531.5,60.0 L2531.5,427.0 L2514.3,427.0 Z  h0.01"/>	<path d="M2531.5,427.0 L2531.5,60.0 L2548.7,60.0 L2548.7,427.0 L2531.5,427.0 Z  h0.01"/>	<path d="M2548.7,427.0 L2548.7,60.0 L2565.9,60.0 L2565.9,427.0 L2548.7,427.0 Z  h0.01"/>	<path d="M2565.9,427.0 L2565.9,60.0 L2583.1,60.0 L2583.1,427.0 L2565.9,427.0 Z  h0.01"/>	<path d="M2583.1,427.0 L2583.1,60.0 L2600.3,60.0 L2600.3,427.0 L2583.1,427.0 Z  h0.01"/>	<path d="M2600.3,427.0 L2600.3,60.0 L2617.5,60.0 L2617.5,427.0 L2600.3,427.0 Z  h0.01"/>	<path d="M2617.5,427.0 L2617.5,60.0 L2634.7,60.0 L2634.7,427.0 L2617.5,427.0 Z  h0.01"/>	<path d="M2634.7,427.0 L2634.7,60.0 L2651.9,60.0 L2651.9,427.0 L2634.7,427.0 Z  h0.01"/>	<path d="M2651.9,427.0 L2651.9,60.0 L2669.2,60.0 L2669.2,427.0 L2651.9,427.0 Z  h0.01"/>	<path d="M2669.2,427.0 L2669.2,60.0 L2686.4,60.0 L2686.4,427.0 L2669.2,427.0 Z  h0.01"/>	<path d="M2686.4,427.0 L2686.4,60.0 L2703.6,60.0 L2703.6,427.0 L2686.4,427.0 Z  h0.01"/>	<path d="M2703.6,427.0 L2703.6,14.1 L2720.8,14.1 L2720.8,427.0 L2703.6,427.0 Z  h0.01"/>	<path d="M2720.8,427.0 L2720.8,14.1 L2738.0,14.1 L2738.0,427.0 L2720.8,427.0 Z  h0.01"/>	<path d="M2738.0,427.0 L2738.0,14.1 L2755.2,14.1 L2755.2,427.0 L2738.0,427.0 Z  h0.01"/>	<path d="M2755.2,427.0 L2755.2,14.1 L2772.4,14.1 L2772.4,427.0 L2755.2,427.0 Z  h0.01"/>	<path d="M2772.4,427.0 L2772.4,14.1 L2789.6,14.1 L2789.6,427.0 L2772.4,427.0 Z  h0.01"/>	<path d="M2789.6,427.0 L2789.6,14.1 L2806.8,14.1 L2806.8,427.0 L2789.6,427.0 Z  h0.01"/>	<path d="M2806.8,427.0 L2806.8,14.1 L2824.0,14.1 L2824.0,427.0 L2806.8,427.0 Z  h0.01"/>	<path d="M2824.0,427.0 L2824.0,14.1 L2841.2,14.1 L2841.2,427.0 L2824.0,427.0 Z  h0.01"/>	<path d="M2841.2,427.0 L2841.2,14.1 L2858.4,14.1 L2858.4,427.0 L2841.2,427.0 Z  h0.01"/>	<path d="M2858.4,427.0 L2858.4,14.1 L2875.7,14.1 L2875.7,427.0 L2858.4,427.0 Z  h0.01"/>	<path d="M2875.7,427.0 L2875.7,14.1 L2892.9,14.1 L2892.9,427.0 L2875.7,427.0 Z  h0.01"/>	<path d="M2892.9,427.0 L2892.9,14.1 L2910.1,14.1 L2910.1,427.0 L2892.9,427.0 Z  h0.01"/>	<path d="M2910.1,427.0 L2910.1,14.1 L2927.3,14.1 L2927.3,427.0 L2910.1,427.0 Z  h0.01"/>	<path d="M2927.3,427.0 L2927.3,14.1 L2944.5,14.1 L2944.5,427.0 L2927.3,427.0 Z  h0.01"/>	<path d="M2944.5,427.0 L2944.5,14.1 L2961.7,14.1 L2961.7,427.0 L2944.5,427.0 Z  h0.01"/>	<path d="M2961.7,427.0 L2961.7,14.1 L2978.9,14.1 L2978.9,427.0 L2961.7,427.0 Z  h0.01"/></g>
+	</g>
+<g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path stroke="black" d="M53.5,14.1 L53.5,427.0 L2978.9,427.0 L2978.9,14.1 L53.5,14.1 Z  h0.01"/></g>
+</g>
+</svg>
