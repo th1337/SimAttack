@@ -1,0 +1,6 @@
+Nb domaines présents par utilisateur
+Pareil avec domaines parents
+Pareil en retenant top k domaines par requête
+Comparer moyenne similarité sémantique utilisateur avec ses requêtes par rapport aux k plus proches avec les mêmes requêtes
+S'en servir pour caractériser la correspondance sémantique entre une requête et son utilisateur
+Regarder répartition requêtes sensibles
