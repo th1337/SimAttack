@@ -6,12 +6,10 @@
 
 package fr.cnrs.liris.SimAttack.Util;
 
-import org.apache.commons.math3.util.Pair;
-
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 
 /**
  *
@@ -21,11 +19,15 @@ public class Query implements Comparable<Query> {
 
     private List<Annotation> annotations;
 	private Set<String> keywords;
+
+    private Map<String,Integer> domains;
+
 	private final int dataset;
 	private final int queryId;
 	private final int userId;
 	private final String request;
     private final int fakeQueryId;
+
 
 
     /**
@@ -51,6 +53,8 @@ public class Query implements Comparable<Query> {
         }
 		this.request = splitLine[2].intern();
         this.keywords = null;
+
+        domains = new TreeMap<>();
     }
 
 
@@ -163,6 +167,22 @@ public class Query implements Comparable<Query> {
     @Override
     public String toString() {
         return queryId+"\t"+userId+"\t"+request+"\t"+dataset;
+    }
+
+
+    public void addDomains(Set<String> domains){
+        for (String domain : domains){
+            Integer val = this.domains.get(domain);
+            if(val!=null){
+                this.domains.put(domain, val+1);
+            } else {
+                this.domains.put(domain, 1);
+            }
+        }
+    }
+
+    public Map<String,Integer> getDomains(){
+        return this.domains;
     }
 
 }

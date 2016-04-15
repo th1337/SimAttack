@@ -1,12 +1,15 @@
 package fr.cnrs.liris.SimAttack;
 
 import fr.cnrs.liris.SimAttack.Sensitivity.SemanticAssessment;
-import fr.cnrs.liris.SimAttack.Util.CoreNLPTokenizer;
+import fr.cnrs.liris.SimAttack.Util.Profile;
 import fr.cnrs.liris.SimAttack.Util.Query;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -35,11 +38,61 @@ public class App {
 
         SemanticAssessment sem = new SemanticAssessment();
 
+        Set<String> tousDomaines = new HashSet<>();
+
+        List<Profile> profiles = trainingSet.parallelStream()
+                .collect(Collectors.groupingBy(Query::getUserId))
+                .entrySet()
+                .parallelStream()
+                .map(Profile::new)
+                .collect(Collectors.toList());
+/*
+        trainingSet.parallelStream()
+                .filter(q -> q.getDataset() == 0)
+                .forEach(q -> {
+                    Set<String> toto = sem.getDomains(q);
+                    q.addDomains(toto);
+                });*/
+
+        File file = new File("/home/marcus/Documents/SimAttack/graphes/data.txt");
+
+        // if file doesnt exists, then create it
+        if (!file.exists()) {
+            file.createNewFile();
+        }
+
+        FileWriter fw = new FileWriter(file.getAbsoluteFile());
+        BufferedWriter bw = new BufferedWriter(fw);
+
         for (Query query : trainingSet){
-            boolean toto = sem.process(query);
+
+            Set<String> domains = sem.getDomains(query);
+            query.addDomains(domains);
+        }
+
+        for(Profile profile : profiles){
+            profile.calculateDomains();
+        }
+
+        Map<Integer,Integer> nbDomaines = new TreeMap();
+
+
+
+        for (Profile profil : profiles) {
+            int size = profil.getDomains().size();
+            if(nbDomaines.get(size) != null){
+                int i = nbDomaines.get(size);
+                nbDomaines.put(size, i + 1);
+            } else {
+                nbDomaines.put(size, 1);
+            }
         }
 
 
+        for(int size : nbDomaines.keySet()) {
+            System.out.println(size + " " + nbDomaines.get(size) + "\n");
+            bw.write(size + " " + nbDomaines.get(size) + "\n");
+        }
 
 
         //System.out.println(toto);
@@ -47,7 +100,7 @@ public class App {
 
 
 
-        System.out.println(CoreNLPTokenizer.getInstance().process(trainingSet.get(0).getRequest()));
+        //System.out.println(CoreNLPTokenizer.getInstance().process(trainingSet.get(0).getRequest()));
 
 
         /** Fait par Thibault pour répartir les users suivant leur présence dans le training set et

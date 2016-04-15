@@ -101,11 +101,9 @@ public class SemanticAssessment {
                 String token = annotation.getText();
                 POS pos = annotation.getPOS();
                 IndexWord indexWord = morphologicalProcessor.lookupBaseForm(pos, token);
-               // System.out.println(indexWord);
                 if (indexWord != null) {
                     indexWord.sortSenses();
                     synsets.add(indexWord.getSenses());
-                    System.out.println("indexWord : " + indexWord.getSenses() + "\n");
                     keywords.add(token);
                 } else {
                     if (medicalWords.contains(token) && pos != null) {
@@ -161,13 +159,76 @@ public class SemanticAssessment {
                 }
                 sb.append('\n');
             }
-          //  System.out.println(query.getQueryId() + "..." + sb.toString() + "\n");
+            System.out.println(query.getQueryId() + "..." + sb.toString() + "\n");
             queryToDomains.put(query.getRequest(), domains);
             queryToDescription.put(query.getRequest(), sb.toString());
         }
 
         return Sets.intersection(SENSITIVE_DOMAIN, domains).size() > 0;
 
+    }
+
+    public Set<String> getDomains(Query query) {
+
+
+
+        int nbSynsetsPerKeyword = NB_SYNSETS_PER_KEYWORD;
+        int nbDomainsPerSynset = NB_CATEGORIES_PER_SYNSET;
+
+        List<List<Synset>> synsets = new ArrayList<>();
+        List<String> keywords = new ArrayList<>();
+        Set<String> domains = new HashSet<>();
+        try {
+            /** Transforme la requête en annotations **/
+            for (Annotation annotation : CoreNLPTokenizer.getInstance().process(query.getRequest())) {
+                String token = annotation.getText();
+                POS pos = annotation.getPOS();
+                IndexWord indexWord = morphologicalProcessor.lookupBaseForm(pos, token);
+                if (indexWord != null) {
+                    indexWord.sortSenses();
+                    synsets.add(indexWord.getSenses());
+                    keywords.add(token);
+                } else {
+                    if (medicalWords.contains(token) && pos != null) {
+                        domains.add("medicine");
+                    }
+                }
+            }
+        } catch (JWNLException e) {
+            e.printStackTrace();
+        }
+
+        //if (synsets.isEmpty()) {
+        boolean containsBadword = false;
+        for (String badword: badWords) {
+            if (query.getRequest().contains(badword)) {
+                domains.add("sexuality");
+                containsBadword = true;
+                break;
+            }
+        }
+        //}
+
+        if (!containsBadword) {
+            if (nbSynsetsPerKeyword != -1) {
+                synsets = WuAndPalmer.disambiguate(synsets, nbSynsetsPerKeyword);
+            }
+
+            // iterate over all terms in the input string
+            for (int i = 0; i < synsets.size(); i++) {
+                List<Synset> synsetList = synsets.get(i);
+                // iterate over all synsets
+                for (Synset synset : synsetList) {
+                    List<String> synsetToDomains = collectDomains(synset);
+                    if (synsetToDomains != null) {
+                        synsetToDomains = synsetToDomains.subList(0, nbDomainsPerSynset);
+                        domains.addAll(synsetToDomains);
+                    }
+                }
+            }
+        }
+
+        return domains;
     }
 
     private List<String> collectDomains(Synset synset) {

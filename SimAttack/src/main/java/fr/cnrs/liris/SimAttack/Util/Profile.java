@@ -3,7 +3,6 @@ package fr.cnrs.liris.SimAttack.Util;
 import org.apache.commons.math3.util.Pair;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Created by apetit on 08/10/15.
@@ -14,6 +13,9 @@ public class Profile {
     private final List<Pair<Set<String>,Double>> queries = new ArrayList<>();
     private final Set<String> words = new HashSet<>();
     private double alpha = Double.parseDouble("0.6");
+
+    private Set<Query> realQueries;
+    private Map<String,Double> domains;
 
     /**
      * Create a new Profile
@@ -32,6 +34,11 @@ public class Profile {
     public Profile(int userId, List<Query> profile) {
         this.userId = userId;
         profile.stream().forEachOrdered(this::add);
+
+        domains = new TreeMap<>();
+
+        realQueries = new HashSet<>();
+        realQueries.addAll(profile);
     }
 
     public int getUserId() {
@@ -93,6 +100,27 @@ public class Profile {
             }
         }
         return distrib;
+    }
+
+    public void calculateDomains (){
+        int size = this.realQueries.size();
+        for (Query query : this.realQueries) {
+            Map<String,Integer> dom = query.getDomains();
+            for (String domain : dom.keySet()) {
+                Double j;
+                if(this.domains.get(domain) != null){
+                    j = this.domains.get(domain);
+                } else {
+                    j = 0.0;
+                }
+                Double i = (double)dom.get(domain);
+                this.domains.put(domain,j+(i/size));
+            }
+        }
+    }
+
+    public Map<String,Double> getDomains (){
+        return this.domains;
     }
 
 }
